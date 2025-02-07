@@ -1,0 +1,46 @@
+{
+    "tasks_name": [
+      "Grocery Run",
+      "Weekend Coding"
+    ],
+    "tasks": [
+      {
+        "task_name": "Buy groceries",
+        "description": "Pick up items from the supermarket",
+        "task_duration": {
+          "duration_type": "single",
+          "singleTime": {
+            "date": "2025-12-01"
+          }
+        },
+        "time_in_day": "09:00",
+        "quantization": null,
+        "notes": "Ensure to buy fresh fruits and vegetables"
+      },
+      {
+        "task_name": "Practice coding algorithms",
+        "description": "Work on data structure and algorithm problems",
+        "task_duration": {
+          "duration_type": "across",
+          "acrossTime": {
+            "start_date": "2025-12-01",
+            "end_date": "2026-01-31",
+            "repeat": "On Weekend",
+            "schedule": {
+              "schedule_type": "On Weekend",
+              "onWeekendType": {
+                "on_weekend": [1, 2]
+              }
+            }
+          }
+        },
+        "time_in_day": "10:30",
+        "quantization": {
+          "progress_start": 0,
+          "goal": 12
+        },
+        "notes": "Focus on graph and DP problems"
+      }
+    ]
+  }
+  
